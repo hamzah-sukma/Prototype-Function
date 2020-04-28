@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+void fungsi ( int x, int y){
+	cout << "Penjumlahan "<< (x + y) <<endl;
+	cout << "Pengurangan "<< (x - y)<<endl;
+	cout << "Perkalian "<< (x * y) <<endl;
+	cout << "Pembagian "<< (x / y) <<endl;
+}
+int main (){
+	int x=50, y=25;
+	cout<< "Hasil prototype function "<<endl;
+	fungsi(x, y);
+}
